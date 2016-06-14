@@ -1,0 +1,115 @@
+Baseline:
+Setting (No Normalization, Unigram/Bigram Words, Unigram/Bigram POS, Relative Frequency Value)
+Accuracy of Dev: 0.53
+Accuracy of Test: 0.55
+
+
+Accuracy    0.53000
+
+         |  n  p |
+         |  e  o |
+         |  g  s |
+         |  a  i |
+         |  t  t |
+         |  i  i |
+         |  v  v |
+         |  e  e |
+---------+-------+
+negative |<21>29 |
+positive | 18<32>|
+---------+-------+
+
+
+
+Accuracy    0.55000
+
+         |  n  p |
+         |  e  o |
+         |  g  s |
+         |  a  i |
+         |  t  t |
+         |  i  i |
+         |  v  v |
+         |  e  e |
+---------+-------+
+negative |<22>28 |
+positive | 17<33>|
+---------+-------+
+
+
+Best Classifier:
+Setting: I kept all features from baseline classifier, but I used normalization (all word have lower case),
+removed stop words, and removed all words that do not have at least one word character. 
+I also add liwc_feature (positive/negative) and  len of text feature (I see that positive review are shorter)
+Accuracy of Dev: 0.58
+Accuracy of Test: 0.55
+
+Accuracy    0.58000
+
+         |  n  p |
+         |  e  o |
+         |  g  s |
+         |  a  i |
+         |  t  t |
+         |  i  i |
+         |  v  v |
+         |  e  e |
+---------+-------+
+negative |<25>25 |
+positive | 17<33>|
+---------+-------+
+
+
+Accuracy    0.55000
+
+         |  n  p |
+         |  e  o |
+         |  g  s |
+         |  a  i |
+         |  t  t |
+         |  i  i |
+         |  v  v |
+         |  e  e |
+---------+-------+
+negative |<22>28 |
+positive | 17<33>|
+---------+-------+
+
+
+
+I also tried to use only normalisation (without len of text and liwc_feature), but the result was not very good:
+Accuracy of Dev: 0.56
+Accuracy of Test: 0.55
+
+Accuracy    0.56000
+
+         |  n  p |
+         |  e  o |
+         |  g  s |
+         |  a  i |
+         |  t  t |
+         |  i  i |
+         |  v  v |
+         |  e  e |
+---------+-------+
+negative |<23>27 |
+positive | 17<33>|
+---------+-------+
+
+
+Accuracy    0.55000
+
+         |  n  p |
+         |  e  o |
+         |  g  s |
+         |  a  i |
+         |  t  t |
+         |  i  i |
+         |  v  v |
+         |  e  e |
+---------+-------+
+negative |<21>29 |
+positive | 16<34>|
+---------+-------+
+
+

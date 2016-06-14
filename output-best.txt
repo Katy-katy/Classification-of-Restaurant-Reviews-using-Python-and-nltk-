@@ -1,0 +1,19 @@
+Results of restaurant-testing.data:
+
+Accuracy    0.83000
+
+         |  n  p |
+         |  e  o |
+         |  g  s |
+         |  a  i |
+         |  t  t |
+         |  i  i |
+         |  v  v |
+         |  e  e |
+---------+-------+
+negative |<50> . |
+positive | 17<33>|
+---------+-------+
+(row = reference; col = test)
+
+

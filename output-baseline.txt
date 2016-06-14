@@ -1,0 +1,46 @@
+1.Report the accuracy of your classifier on both the development and test data.
+
+DecisionTree classifier:
+Accuracy  for development data is  0.50000
+Accuracy  for texting data is  0.45000
+
+  
+2. Report the confusion matrix generated from your new DecisionTree classifer, 
+as well as your NaiveBayes classifer from the previous assignment, given the testing data.
+ You do not need to report the confusion matrix for the development data in this file. 
+ (To get the confusion matrix for the Naive Bayes classifier, you can pass in to your 
+ program the baseline-classifier.pickle that you created in Assignment 3.)
+ 
+from DecisionTree classifer: 
+Accuracy    0.45000
+
+         |  n  p |
+         |  e  o |
+         |  g  s |
+         |  a  i |
+         |  t  t |
+         |  i  i |
+         |  v  v |
+         |  e  e |
+---------+-------+
+negative | <4>46 |
+positive |  9<41>|
+---------+-------+
+(row = reference; col = test)
+
+from NaiveBayes classifer:
+Accuracy    0.55000
+
+         |  n  p |
+         |  e  o |
+         |  g  s |
+         |  a  i |
+         |  t  t |
+         |  i  i |
+         |  v  v |
+         |  e  e |
+---------+-------+
+negative |<22>28 |
+positive | 17<33>|
+---------+-------+
+(row = reference; col = test)
