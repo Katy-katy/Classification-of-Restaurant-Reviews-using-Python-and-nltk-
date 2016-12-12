@@ -2,7 +2,7 @@
 
 It is an assignment for "Introduction to Natural Language Prosessing" class at University of California Santa Cruz
 
-My goal was to precict the Category (positive or negative) of restaurant reviews usin nltk library and machine learning algorithms (NaiveBayesClassifier and DecisionTreeClassifier)
+My goal was to predict the Category (positive or negative) of restaurant reviews using nltk library and machine learning algorithms (NaiveBayesClassifier and DecisionTreeClassifier)
 
 restaurant-competition-P2_train.py file was using to train the algorithm. The algorithm was save in restaurant-competition-model-P2.pickle
 
