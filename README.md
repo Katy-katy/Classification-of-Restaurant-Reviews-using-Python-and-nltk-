@@ -1,6 +1,6 @@
 # Classification of Restaurant Reviews using Python and nltk
 
-It is an assignment for "Introduction to Natural Language Prosessing" class at University of California Santa Cruz
+It is an assignment for "Introduction to Natural Language Processing" class at University of California Santa Cruz
 
 My goal was to predict the Category (positive or negative) of restaurant reviews using nltk library and machine learning algorithms (NaiveBayesClassifier and DecisionTreeClassifier)
 
